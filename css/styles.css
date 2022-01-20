@@ -7,7 +7,7 @@
     --segundo-color: #FFFCDC;
 }
 
-*{
+* {
     padding: 0px 0px;
     margin: 0px 0px;
     box-sizing: border-box;
@@ -44,7 +44,7 @@ form {
     margin-top: 15px;
 }
 
-.texto{
+.texto {
     height: 30px;
     width: 100%;
     height: 90px;
@@ -63,20 +63,20 @@ form {
     padding: 7px 10px;
     border: solid 2px transparent;
     border-radius: .3rem;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-.btn:hover{
+.btn:hover {
     transition: .10s;
     background-color: var(--cuarto-bg-color);
     color: var(--primero-color);
 }
 
-p > span {
+p>span {
     font-weight: bold;
 }
 
-.encriptar{
+.encriptar {
     display: flex;
     flex-direction: column;
     background-color: var(--primer-bg-color);
@@ -85,7 +85,7 @@ p > span {
     border-radius: .5rem;
 }
 
-.desencriptar{
+.desencriptar {
     display: flex;
     flex-direction: column;
     background-color: var(--primer-bg-color);

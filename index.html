@@ -2,12 +2,12 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encriptador de texto</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
@@ -16,21 +16,23 @@
         <form id="form" class="form">
             <div class="encriptar">
                 <p><span>IMPORTANTE: </span>Solo letras minusculas y sin acento.</p>
-                <textarea class="texto" type="range" id="txtMensaje" placeholder="Ingrese su mensaje"></textarea>
+                <textarea class="texto" type="text" id="mensaje"></textarea>
                 <div>
-                    <input class="btn" type="button" id="encriptar" value="Encriptar">
-                    <input class="btn" type="button" id="desencriptar" value="desencriptar">
+                    <input class="btn" type="submit" id="encriptar" value="Encriptar" />
+                    <input class="btn" type="submit" id="desencriptar" value="desencriptar" />
                 </div>
             </div>
             <div class="desencriptar">
                 <p>Mensaje encriptado o desencriptado</p>
-                <textarea class="texto" type="range" id="txtConvertido" placeholder="Ingrese su mensaje" rows="2" cols="5"></textarea>
+                <textarea class="texto" id="codigo" type="text"></textarea>
                 <div>
-                    <input class="btn" type="button" id="copiar" value="copiar">
+                    <input class="btn" type="button" id="copiar" value="Copiar">
                 </div>
             </div>
         </form>
     </div>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
