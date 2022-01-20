@@ -14,21 +14,30 @@
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 4vh;
+}
+
+p {
+    font-size: 2vh;
+}
+
 body {
     color: var(--primer-color);
     background-color: var(--cuarto-bg-color);
+    padding-top: 5%;
 }
 
 .contenedor {
     color: var(--primer-color);
     background-color: var(--tercero-bg-color);
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
 form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2%;
     color: var(--primer-color);
     border-radius: 1rem;
@@ -83,4 +92,5 @@ p > span {
     padding: 10px 10px;
     width: 99%;
     border-radius: .5rem;
+    margin-top: 2%;
 }
