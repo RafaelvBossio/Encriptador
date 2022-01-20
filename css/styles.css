@@ -1,0 +1,86 @@
+:root {
+    --primer-bg-color: #FFF8F3;
+    --segundo-bg-color: #A3E4DB;
+    --tercer-bg-color: #1C6DD0;
+    --cuarto-bg-color: #FED1EF;
+    --primer-color: #4C0027;
+    --segundo-color: #FFFCDC;
+}
+
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: var(--primer-color);
+    background-color: var(--cuarto-bg-color);
+}
+
+.contenedor {
+    color: var(--primer-color);
+    background-color: var(--tercero-bg-color);
+    width: 80%;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    color: var(--primer-color);
+    border-radius: 1rem;
+    margin-top: 15px;
+}
+
+.texto{
+    height: 30px;
+    width: 100%;
+    height: 90px;
+    font-size: large;
+    outline: none;
+    border: none;
+    border-bottom: solid 2px var(--tercer-bg-color);
+    margin-top: 15px;
+}
+
+.btn {
+    margin: 2px;
+    margin-top: 15px;
+    color: var(--segundo-color);
+    background-color: var(--tercer-bg-color);
+    padding: 7px 10px;
+    border: solid 2px transparent;
+    border-radius: .3rem;
+    font-weight:bold;
+}
+
+.btn:hover{
+    transition: .10s;
+    background-color: var(--cuarto-bg-color);
+    color: var(--primero-color);
+}
+
+p > span {
+    font-weight: bold;
+}
+
+.encriptar{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primer-bg-color);
+    padding: 10px 10px;
+    width: 99%;
+    border-radius: .5rem;
+}
+
+.desencriptar{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primer-bg-color);
+    padding: 10px 10px;
+    width: 99%;
+    border-radius: .5rem;
+}
